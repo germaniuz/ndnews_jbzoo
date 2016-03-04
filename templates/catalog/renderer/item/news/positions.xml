@@ -1,46 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+  JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
 
-    @package     jbzoo
-    @version     2.x Pro
-    @author      JBZoo App http://jbzoo.com
-    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
-    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+  @package            jbzoo
+  @version            2.x Pro
+  @template_author    German Martirosyan http://www.studio-aw.ru
+  @item               news
 -->
 <renderer>
-    <positions layout="feed">
-    </positions>
+  <positions layout="feed">
+  </positions>
 
-    <positions layout="full">
-        <position name="title">Title</position>
-    </positions>
+  <positions layout="full">
+    <position name="category">category</position>
+    <position name="title">title</position>
+    <position name="image">image</position>
+    <position name="photograf">photograf</position>
+    <position name="date">date</position>
+    <position name="comm">comments</position>
+    <position name="fulltext">fulltext</position>
+  </positions>
 
-    <positions layout="teaser">
-    </positions>
+  <positions layout="teaser">
+  </positions>
 
-    <positions layout="related">
-    </positions>
+  <positions layout="related">
+  </positions>
 
-    <positions layout="subcategory_item">
-    </positions>
+  <positions layout="subcategory_item">
+  </positions>
 
-    <positions layout="submission">
-    </positions>
+  <positions layout="submission">
+  </positions>
 
-    <positions layout="compare">
-    </positions>
+  <positions layout="compare">
+  </positions>
 
-    <positions layout="favorite">
-    </positions>
+  <positions layout="favorite">
+  </positions>
 
-    <positions layout="ymlexport">
-    </positions>
+  <positions layout="ymlexport">
+  </positions>
 
-    <positions layout="edit">
-    </positions>
+  <positions layout="edit">
+  </positions>
 
-    <positions layout="quickview">
-    </positions>
-
+  <positions layout="quickview">
+  </positions>
 </renderer>
