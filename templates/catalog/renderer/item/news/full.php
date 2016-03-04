@@ -15,8 +15,12 @@ $tabsId = $this->app->jbstring->getId('tabs');
 <p class="cat-reg-bage"><?php echo $this->renderPosition('category'); ?></p>
 <h1><?php echo $this->renderPosition('title'); ?></h1>
 <?php if ($this->checkPosition('image')) : ?>
-  <div class="fullstory-img"><?php echo $this->renderPosition('image'); ?></div>  
-  <div class="fullstory-img"><?php echo $this->renderPosition('photograf'); ?></div>  
+  <figure class="fullstory-img">
+    <?php echo $this->renderPosition('image'); ?>
+    <figcaption>
+      <?php echo $this->renderPosition('photograf'); ?>
+    </figcaption>
+  </figure>
 <?php endif; ?>
 <div class="date-comm">
   <?php echo $this->renderPosition('date'); ?>
